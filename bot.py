@@ -300,4 +300,4 @@ async def clear_error( ctx, error ):
 		await ctx.send( f'{ ctx.author.name }, у вас недостаточно прав!' )
 
 # Get token
-client.run( str(os.environ.get( 'TOKEN_BOT' )) )
+client.run( str(os.environ( 'TOKEN_BOT' )) )
